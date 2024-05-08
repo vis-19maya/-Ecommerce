@@ -1,0 +1,70 @@
+.place-order {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .place-order-left,
+  .place-order-right {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .multi-fields {
+    margin-bottom: 15px;
+  }
+  
+  .multi-fields input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+  }
+  
+  .cartitems-total {
+    background-color: red;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartitems-total h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cartitems-total-item p {
+    font-size: 16px;
+  }
+  
+  .cartitems-total-item p:first-child {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
