@@ -1,0 +1,36 @@
+.checkout {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .StripeElement {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #checkoutButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #checkoutButton:hover {
+    background-color: #0056b3;
+  }
+  #errorMessage {
+    color: red;
+    margin-top: 10px;
+  }
+  @media (max-width: 768px) {
+    #checkout {
+      max-width: 100%;
+    }
+  }
+  
