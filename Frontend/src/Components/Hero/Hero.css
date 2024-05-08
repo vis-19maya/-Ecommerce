@@ -1,0 +1,87 @@
+.hero{
+  background: rgb(20, 12, 1);
+  display: flex;
+}
+.hero-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 180px;
+  line-height: 1.1;
+}
+.hero-left h2{
+  color: #090909;
+  font-size: 26px;
+  font-weight: 600;
+}
+.hero-left p{
+  color: #171717;
+  font-size: 100px;
+  font-weight: 700;
+
+}
+.hero-font{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero-hand-icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero-hand-icon img{
+  width: 105px;
+}
+.hero-latest-btn{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  gap: 15px;
+  width: 310px;
+  height: 70px;
+  border-radius: 75px;
+  margin-top: 30px;
+  background: #ff4141;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.hero-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero img{
+  width: 205vh;
+  height:75vh;
+}
+@media(max-width:1280px){
+  .hero img{
+     width: 140vh;
+     height: 40vh;
+  }
+
+}
+@media(max-width:1024px){
+  .hero img{
+     width: 120vh;
+     height: 30vh;
+  }
+
+}
+@media(max-width:800px){
+  .hero img{
+     width: 90vh;
+     height: 40vh;
+  }
+
+}
+@media(max-width:500px){
+  .hero img{
+     width: 50vh;
+     height: 40vh;
+  }
+
+}
